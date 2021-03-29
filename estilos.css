@@ -1,0 +1,537 @@
+*{
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+ /*   
+    background-image: url(img/bg-2.jpg);
+    */
+    background: white;
+    
+}
+
+
+.bodyCYA{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right,#6a82fb,#fc5c7d);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   }
+   
+   .headerCYA{
+   
+       
+       width: 100%;
+       height: 50px;
+       position: fixed;
+       
+       position: absolute;
+       top: 20px;
+       
+       
+   }
+   .LogoAlitas{
+       margin-top: 25px;
+       width: 30%;
+   }
+   .item1CYA{
+
+    position: relative;
+    top: 18px;
+    cursor: pointer;
+    
+
+}
+.linea1CYA{
+    background: #ffbf00;
+    width: 90%;
+    height: 1px;
+    position: relative;
+    top: 30px;
+   
+}
+:root{
+    --ColorTextos: #49454567;
+}
+.ContenedorBodyCYA{
+    
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.H1Alitas{
+    position: relative;
+    color: black;
+    top: -80px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 800;
+}
+.H2Alitas{
+    position: relative;
+    color: black;
+    top: -80px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 800;
+}
+.H3Alitas{
+    position: relative;
+    color: black;
+    top: 0px;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 10px 0;
+    font-weight: 800;
+}
+.form{
+    background: none;
+width: 30%;
+margin-top: 100px;
+padding: 110px 0;
+/* border-radius: 15px;
+box-shadow: 0 0 6px 0 rgba(255, 255,255,0.5);
+*/
+}
+.form2{
+    background: none;
+width: 30%;
+margin-top: 100px;
+padding: 110px 0;
+/* border-radius: 15px;
+box-shadow: 0 0 6px 0 rgba(255, 255,255,0.5);
+*/
+}
+
+
+form .grupo{
+
+    position: relative;
+    top: -10px;
+   margin: 30px;
+}
+
+.bad{
+    position: fixed;
+    bottom: 200px;
+    margin: 30px;
+   color: black;
+}
+input, textarea{
+    background: none;
+    color: #c6c6c6;
+    font-size: 13px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--ColorTextos);
+    resize: none;
+}
+input:focus,textarea:focus{
+
+    outline: none;
+    color: rgb(94, 93, 93);
+
+}
+
+input:focus~label,input:valid~label,textarea:focus~label,input:valid~label{
+    position: absolute;
+    top: -14px;
+    font-size: 10px;
+    color: #2196F3;
+}
+label{
+    color: var(--ColorTextos);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.3s ease all;
+    pointer-events: none;
+}
+
+input:focus~.barra::before,textarea:focus~textarea::before{
+    width: 100%;
+}
+
+
+button{
+    
+    /*background-image: url(img/bg-1.jpg);*/
+    background: rgb(255, 171, 45);
+    display: block;
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: orange;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #000;
+    margin: 10px auto;
+    cursor: pointer;
+    
+}
+.FooP{
+margin-top: 120px;
+color: black;
+
+}
+.FooPMenu{
+    position: relative;
+    bottom: 10px;
+    color: #c6c6c6;
+    
+    }
+
+@media screen and (max-width:5400px){
+    .form{
+        width: 50%;
+       
+    }
+    .form2{
+        width: 30%;
+       
+    }
+    .bad{
+        position: fixed;
+        bottom: 100px;
+        margin: 30px;
+       color: white;
+    }
+  
+}
+@media screen and (max-width:1000px){
+    .form{
+        width: 50%;
+       
+    }
+    .form2{
+        width: 35%;
+       
+    }
+    .bad{
+        position: fixed;
+        bottom: 100px;
+        margin: 30px;
+       color: white;
+    }
+  
+}
+@media screen and (max-width:600px){
+    .form{
+        width: 60%;
+        
+    }
+    .form2{
+        width: 60%;
+        
+    }
+    .bad{
+        position: fixed;
+        bottom: 100px;
+        margin: 30px;
+       color: white;
+    }
+    
+}
+@media screen and (max-width:450px){
+    .form{
+        display: block;
+        width: 80%;
+        
+    }
+    .form2{
+        width: 80%;
+        
+    }
+    
+}
+@media screen and (max-width:300px){
+    .form{
+        width: 100%;
+        
+    }
+    .form2{
+        width: 100%;
+        
+    }
+    
+    
+    
+}
+
+/*                                                            Pagina Menu                                */
+
+.bodyMenu{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-image: url(img/bg-2.jpg);*/
+    background: white;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   }
+   .bad{
+        
+    
+    position: fixed;
+    bottom: 100px;
+    margin: 30px;
+    color: black;
+   
+}
+.good{
+        
+    
+    position: fixed;
+    bottom: 100px;
+    margin: 30px;
+    color: black;
+   
+}
+   
+   .headerMenu{
+   
+       
+       width: 100%;
+       height: 50px;
+       position: fixed;
+       
+       position: absolute;
+       top: -10px;
+       
+       
+   }
+   .item1Menu{
+
+    position: relative;
+    top: 18px;
+
+        margin-top: 25px;
+        width: 30%;
+   
+    cursor: pointer;
+    
+
+}
+
+:root{
+    --ColorTextos: black;
+}
+.ContenedorBodyMenu{
+    
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.H1Menu{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 800;
+    color: black;
+}
+
+
+form .grupo{
+    
+    position: relative;
+   margin: 30px;
+}
+input, textarea{
+    background: none;
+    color: #c6c6c6;
+    font-size: 13px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--ColorTextos);
+    resize: none;
+}
+input:focus,textarea:focus{
+
+    outline: none;
+    color: rgb(94, 93, 93);
+
+}
+
+input:focus~label,input:valid~label,textarea:focus~label,input:valid~label{
+    position: absolute;
+    top: -14px;
+    font-size: 10px;
+    color: #fa9e15;
+}
+label{
+    color: var(--ColorTextos);
+    font-size: 16px;
+    color: #000;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.3s ease all;
+    pointer-events: none;
+}
+
+input:focus~.barra::before,textarea:focus~textarea::before{
+    width: 100%;
+}
+.barra{
+
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.barra::before{
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    
+    background: linear-gradient(to right,#ffc698,#fa7c15);
+    transition: 0.3s ease all;
+    left: 0%;
+}
+
+
+
+
+/*                                                            Pagina Menu                                */
+/*                                                            Pagina INICIO                                */
+
+.formM{
+    
+    /*background-image: url(img/bg-1.jpg);*/
+    background: orange;
+    width: 100%;
+    margin-top: -120px;
+    padding: 50px 0;
+    border-radius: 30px;
+    box-shadow: 0 0 6px 0 rgba(255, 255,255,0.5);
+    
+    }
+    .H2ALAS{
+        position: relative;
+        top: -20px;
+    }
+    .H2FORM{
+        position: relative;
+        top: 40px;
+        color: white;
+    
+    }
+    .PformM{
+        position: relative;
+        top: 30px;
+        color: white;
+
+    }
+
+    .grupoComida{
+        width: 100%;
+        max-width: 1000px;
+        
+        border-radius: 10px;
+        padding-top: 2.5em;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 3em;
+
+         display: flex;
+         
+         flex-wrap: wrap;
+         padding: 25px;
+         
+    /*display: grid;
+    
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    */
+        
+        
+    }
+    .H1PEDIDOS{
+        position: relative;
+        padding: 10PX;
+        left: 44%;
+        color: black;
+    }
+    .GrupoC{
+        width: 93%;
+        cursor: pointer;
+       /*box-shadow: 0 0 5px 0 rgba(0, 0, 0, 095);*/
+       transition: all 300ms;
+       position: relative;
+       margin-top: 20px;
+       background: white;
+       box-shadow: 0 0 6px 0 rgba(31, 31, 31, 0.5);
+       color: black;
+       border-radius: 20px;
+       padding: 10px;
+    }
+
+    .grupoHerramientas{
+        width: 100%;
+        max-width: 1000px;
+        padding-top: 0em;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: -5em;
+         
+    display: grid;
+    
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    
+
+        
+    }
+    .GrupoH{
+        cursor: pointer;
+       /*box-shadow: 0 0 5px 0 rgba(0, 0, 0, 095);*/
+       transition: all 300ms;
+       position: relative;
+       margin-top: -20px;
+       background: #fa1515;
+       border-radius: 20px;
+    }
+
+    .Botones{
+    
+    background-image: url(img/bg-1.jpg);
+    display: block;
+    width: 50px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #000;
+    margin: 10px auto;
+    cursor: pointer;
+    
+}
+
+/*                                                            Pagina INICIO                                */
+
+/*                                                            Pagina tablas                                */
+
+/*                                                            Pagina tablas                                */
